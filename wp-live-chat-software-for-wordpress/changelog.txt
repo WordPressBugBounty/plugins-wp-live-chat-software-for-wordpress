@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 4.5.23 =
+* checked plugin compatibility with WordPress 6.7
+
 = 4.5.22 =
 * checked plugin compatibility with WordPress 6.6
 
