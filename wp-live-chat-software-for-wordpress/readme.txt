@@ -1,7 +1,7 @@
 === LiveChat - WP live chat plugin for WordPress ===
 Contributors: LiveChat
 Tags: live chat, chat plugin, live chat plugin, wordpress live chat, wordpress chat,
-Stable tag: 4.5.23
+Stable tag: 5.0.0
 Requires PHP: 7.2
 Tested up to: 6.7
 Requires at least: 4.4

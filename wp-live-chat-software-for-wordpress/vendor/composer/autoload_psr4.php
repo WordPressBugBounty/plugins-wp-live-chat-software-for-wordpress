@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'LiveChat\\' => array($baseDir . '/plugin_files'),
+    'LiveChat\\' => array($baseDir . '/includes'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
 );

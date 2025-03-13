@@ -1,218 +1,224 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: LiveChat Elementor\n"
-"POT-Creation-Date: 2021-10-13 11:57+0200\n"
-"PO-Revision-Date: 2021-10-13 11:57+0200\n"
-"Last-Translator: LiveChat, Inc <apps@livechatinc.com>\n"
-"Language-Team: LiveChat, Inc <apps@livechatinc.com>\n"
+"Project-Id-Version: LiveChat\n"
+"POT-Creation-Date: 2025-03-04 12:23+0100\n"
+"PO-Revision-Date: 2025-03-04 12:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: elementor-livechat.php\n"
+"X-Poedit-WPHeader: livechat.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
-"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-1: dist/wp-live-chat-software-for-wordpress/"
+"vendor\n"
+"X-Poedit-SearchPathExcluded-2: dist/livechat-woocommerce/vendor\n"
+"X-Poedit-SearchPathExcluded-3: dist/livechat-elementor/vendor\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Poedit-SearchPathExcluded-5: vendor\n"
 
-#. Author of the plugin/theme
-#: plugin_files/Services/Elementor/ElementorWidgetsProvider.class.php:94
-msgid "LiveChat"
+#: includes/elementor-functions.php:45
+msgid "Text Icons"
 msgstr ""
 
-#: plugin_files/Services/Elementor/ElementorWidgetsProvider.class.php:109
-msgid "LiveChat Icons"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:33
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:61
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:85
-msgid "Contact Button"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:69
-msgid "Text"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:94
-msgid "Typography"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:102
-msgid "Text Shadow"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:110
-msgid "Box Shadow"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:118
-msgid "Border"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:126
-msgid "Background"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatContactButtonWidget.class.php:149
-msgid "Contact us"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:33
-msgid "Quality Badge"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:61
-msgid "Badge Settings"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:70
-msgid "Theme"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:73
-msgid "Light"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:74
-msgid "Dark"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:83
-msgid "Size"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:86
-msgid "Small (160x96)"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:87
-msgid "Medium (200x120)"
-msgstr ""
-
-#: plugin_files/Services/Elementor/Widgets/LiveChatQualityBadgeWidget.class.php:88
-msgid "Large (240x144)"
-msgstr ""
-
-#: plugin_files/Services/MenuProvider.class.php:155
-#: plugin_files/Services/MenuProvider.class.php:156
-#: plugin_files/Services/MenuProvider.class.php:222
+#: includes/plugin.php:310 includes/plugin.php:311
 msgid "Settings"
 msgstr ""
 
-#: plugin_files/Services/MenuProvider.class.php:164
-#: plugin_files/Services/MenuProvider.class.php:165
+#: includes/plugin.php:319 includes/plugin.php:320
 msgid "Resources"
 msgstr ""
 
-#: plugin_files/Services/MenuProvider.class.php:182
-#: plugin_files/Services/MenuProvider.class.php:183
+#: includes/plugin.php:336 includes/plugin.php:337
 msgid "Go to LiveChat"
 msgstr ""
 
-#: plugin_files/Services/Templates/ConfirmIdentityNoticeTemplate.class.php:20
-msgid "Action required - confirm your identity"
+#: includes/templates/connect-notification.php:27
+msgid "Connect your LiveChat account."
 msgstr ""
 
-#: plugin_files/Services/Templates/ConfirmIdentityNoticeTemplate.class.php:22
-msgid ""
-"Thank you for updating LiveChat to the latest version. Please click Connect "
-"to confirm your identity and finish the installation."
+#: includes/templates/connect-notification.php:27
+msgid "Just one step left to engage with your customers."
 msgstr ""
 
-#: plugin_files/Services/Templates/ConfirmIdentityNoticeTemplate.class.php:25
-#: plugin_files/Services/Templates/ConnectNoticeTemplate.class.php:31
-msgid "Connect"
+#: includes/templates/connect-notification.php:30
+msgid "Connect LiveChat"
 msgstr ""
 
-#: plugin_files/Services/Templates/ConnectNoticeTemplate.class.php:27
-msgid "Action required - connect LiveChat"
+#: includes/templates/connect.php:25
+#: includes/templates/successfully-connected.php:20
+msgid "Successfully connected"
 msgstr ""
 
-#: plugin_files/Services/Templates/ConnectNoticeTemplate.class.php:28
-msgid "Please"
+#: includes/templates/connect.php:45 includes/templates/connect.php:47
+msgid "Thank you for choosing LiveChat!"
 msgstr ""
 
-#: plugin_files/Services/Templates/ConnectNoticeTemplate.class.php:29
-msgid "connect your LiveChat account"
+#: includes/templates/connect.php:52
+msgid "Connect LiveChat!"
 msgstr ""
 
-#: plugin_files/Services/Templates/ConnectNoticeTemplate.class.php:30
-msgid "to start chatting with your customers."
+#: includes/templates/connect.php:62
+msgid "In case of any issues,"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:25
-msgid "Cancel"
+#: includes/templates/connect.php:64
+msgid "our 24/7 support"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:32
-msgid "Quick Feedback"
+#: includes/templates/connect.php:66
+msgid "is here for you."
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:33
-msgid ""
-"If you have a moment, please let us know why you are deactivating LiveChat:"
+#: includes/templates/successfully-connected.php:39
+msgid "Your LiveChat is ready to go"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:34
-msgid "I no longer need the plugin."
+#: includes/templates/successfully-connected.php:41
+msgid "The chat widget is live on your website, and you can start chatting!"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:35
-msgid "I couldn't get the plugin to work."
+#: includes/templates/successfully-connected.php:43
+msgid "Explore these enhancements to boost your experience:"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:36
-msgid "I found a better plugin."
+#: includes/templates/successfully-connected.php:53
+msgid "View list of customers to chat with"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:37
-msgid "It's a temporary deactivation."
+#: includes/templates/successfully-connected.php:58
+msgid "View Traffic"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:38
-msgid "Other"
+#: includes/templates/successfully-connected.php:67
+msgid "Invite your teammates"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:39
-msgid "Tell us more..."
+#: includes/templates/successfully-connected.php:71
+msgid "Invite"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:40
-msgid "Please choose one of available options."
+#: includes/templates/successfully-connected.php:80
+msgid "Customize your chat widget"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:41
-msgid "Please provide additional feedback."
+#: includes/templates/successfully-connected.php:84
+msgid "Customize"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:45
-msgid "Skip & continue"
+#: includes/templates/successfully-connected.php:96
+msgid "Your feedback is important for us!"
 msgstr ""
 
-#: plugin_files/Services/Templates/DeactivationModalTemplate.class.php:46
-msgid "Send feedback"
+#: includes/templates/successfully-connected.php:99
+msgid "Rate your LiveChat experience on our"
+msgstr ""
+
+#: includes/templates/successfully-connected.php:101
+msgid "WordPress plugin page."
+msgstr ""
+
+#: includes/templates/successfully-connected.php:104
+msgid "Thank you for your support!"
+msgstr ""
+
+#: includes/templates/successfully-connected.php:113
+msgid "Disconnect your account"
+msgstr ""
+
+#: includes/widgets/contact-button.php:38
+#: includes/widgets/contact-button.php:66
+#: includes/widgets/contact-button.php:90
+msgid "Contact Button"
+msgstr ""
+
+#: includes/widgets/contact-button.php:74
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/contact-button.php:76
+msgid "Contact us"
+msgstr ""
+
+#: includes/widgets/contact-button.php:99
+msgid "Typography"
+msgstr ""
+
+#: includes/widgets/contact-button.php:107
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/widgets/contact-button.php:115
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/widgets/contact-button.php:123
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/contact-button.php:131
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:33
+msgid "Quality Badge"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:61
+msgid "Badge Settings"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:70
+msgid "Theme"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:73
+msgid "Light"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:74
+msgid "Dark"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:83
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:86
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:87
+msgid "Medium"
+msgstr ""
+
+#: includes/widgets/quality-badge.php:88
+msgid "Large"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "LiveChat Elementor"
+#. Author of the plugin/theme
+msgid "LiveChat"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://www.livechat.com/marketplace/apps/elementor/"
+msgid "https://www.livechat.com/marketplace/apps/wordpress/"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
 "Live chat software for live help, online sales and customer support. This "
-"plugin allows to quickly install LiveChat on any Elementor website."
+"plugin allows to quickly install LiveChat on any WordPress website."
 msgstr ""
 
 #. Author URI of the plugin/theme
