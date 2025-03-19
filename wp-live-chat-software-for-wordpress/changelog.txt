@@ -1,5 +1,14 @@
 == Changelog ==
 
+= 5.0.1 =
+* added missing changelog entry
+
+= 5.0.0 =
+* customizable auto-update feature
+* improved plugin settings page
+* code cleanup and refactoring resulting in 9x smaller plugin size
+* support for a new cart view inside the LiveChat app
+
 = 4.5.23 =
 * checked plugin compatibility with WordPress 6.7
 
