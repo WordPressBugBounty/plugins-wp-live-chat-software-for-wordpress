@@ -1,9 +1,9 @@
 === LiveChat - WP live chat plugin for WordPress ===
 Contributors: LiveChat
 Tags: live chat, chat plugin, live chat plugin, wordpress live chat, wordpress chat,
-Stable tag: 5.0.1
+Stable tag: 5.0.2
 Requires PHP: 7.2
-Tested up to: 6.7
+Tested up to: 6.8
 Requires at least: 4.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -180,6 +180,9 @@ For more detailed instructions, go to the [live chat plugin page](https://www.li
 
 == Changelog ==
 
+= 5.0.2 =
+* checked plugin compatibility with WordPress 6.8
+
 = 5.0.1 =
 * added missing changelog entry
 
@@ -191,123 +194,3 @@ For more detailed instructions, go to the [live chat plugin page](https://www.li
 
 = 4.5.23 =
 * checked plugin compatibility with WordPress 6.7
-
-= 4.5.22 =
-* checked plugin compatibility with WordPress 6.6
-
-= 4.5.21 =
-* fixed deprecation warnings for PHP 8.2+
-
-= 4.5.20 =
-* fixed plugin attached if woocommerce is active
-
-= 4.5.19 =
-* checked plugin compatibility with WordPress 6.5
-
-= 4.5.18 =
-* update firebase/php-jwt package to 6.4.0
-
-= 4.5.17 =
-* pass variable instead of reference when calling JWT::decode
-
-= 4.5.16 =
-* fixed CSRF vulnerability
-
-= 4.5.15 =
-* fixed error with firebase/php-jwt package
-
-= 4.5.14 =
-* checked plugin compatibility with WordPress 6.4
-
-= 4.5.13 =
-* checked plugin compatibility with WordPress 6.3
-
-= 4.5.12 =
-* checked plugin compatibility with WordPress 6.2.2
-
-= 4.5.11 =
-* fix for 'Attempt to read property "slug" on array' for PHP v8+
-
-= 4.5.10 =
-* support for Elementor plugin v3.5+
-
-= 4.5.9 =
-* updated plugin description
-
-= 4.5.8 =
-* checked plugin compatibility with WordPress 6.1
-
-= 4.5.7 =
-* fix on hiding review notice
-
-= 4.5.6 =
-* checked plugin compatibility with WordPress 6.0
-
-= 4.5.5 =
-* checked plugin compatibility with WordPress 5.9
-
-= 4.5.4 =
-* updated plugin description
-
-= 4.5.3 =
-* fixed loading custom fonts in Elementor
-
-= 4.5.2 =
-* introduced prefixes to avoid naming collisions
-
-= 4.5.1 =
-* usage of Polyfill was removed
-
-= 4.5.0 =
-* compatibility with the Elementor plugin
-* bug fixes
-
-= 4.4.10 =
-* bug fixes
-
-= 4.4.9 =
-* support for Elementor plugin
-* hide chat widget in Elementor preview
-
-= 4.4.8 =
-* CDN for connect-bridge script
-
-= 4.4.7 =
-* connect-bridge update
-* tested WordPress version bump
-
-= 4.4.6 =
-* bug fixes
-
-= 4.4.5 =
-* bug fixes
-
-= 4.4.4 =
-* asynchronous chat widget loading
-* support for the new admin notices mechanism
-* WordPress 5.7 compatibility check
-
-= 4.4.3 =
-* bug fixes
-
-= 4.4.2 =
-* plugin compatibility bumped to WP in version 5.6
-
-= 4.4.1 =
-* bug fixes
-
-= 4.4.0 =
-* auto-update feature
-
-= 4.3.3 =
-* plugin compatibility bumped to WP in version 5.5
-
-= 4.3.2 =
-* bug fixes
-
-= 4.3.1 =
-* bug fixes
-
-= 4.3.0 =
-* bug fixes
-* disconnect option added

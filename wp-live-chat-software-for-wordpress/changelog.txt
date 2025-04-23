@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 5.0.2 =
+* checked plugin compatibility with WordPress 6.8
+
 = 5.0.1 =
 * added missing changelog entry
 
