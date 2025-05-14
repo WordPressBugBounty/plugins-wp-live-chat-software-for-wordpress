@@ -109,19 +109,6 @@ function text_is_elementor_plugin_active(): bool {
 }
 
 /**
- * Refresh cart action for CI.
- *
- * @return void
- */
-function refresh_cart_action(): void {
-	$woocommerce = WC();
-
-	$cart = $woocommerce->cart;
-
-	text_get_cart( $cart, get_woocommerce_currency() );
-}
-
-/**
  * Load plugin and register hooks.
  *
  * @return void

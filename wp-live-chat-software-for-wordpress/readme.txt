@@ -1,9 +1,9 @@
 === LiveChat - WP live chat plugin for WordPress ===
 Contributors: LiveChat
 Tags: live chat, chat plugin, live chat plugin, wordpress live chat, wordpress chat,
-Stable tag: 5.0.2
+Stable tag: 5.0.3
 Requires PHP: 7.2
-Tested up to: 6.8
+Tested up to: 6.8.1
 Requires at least: 4.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -179,6 +179,9 @@ For more detailed instructions, go to the [live chat plugin page](https://www.li
 4. Customize all of the settings and messaging of your live chat widget to match the style and look of your brand.
 
 == Changelog ==
+
+= 5.0.3 =
+* fixed WooCommerce cart tracking issue
 
 = 5.0.2 =
 * checked plugin compatibility with WordPress 6.8

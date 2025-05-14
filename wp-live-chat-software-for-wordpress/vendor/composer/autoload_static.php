@@ -8,6 +8,7 @@ class ComposerStaticInitb3beefd062fadd99380c1fcefe26370c
 {
     public static $files = array (
         'fdba9c6585915947dfbaba492ebdeb35' => __DIR__ . '/../..' . '/includes/functions.php',
+        '0d0c3925431d2dc9cad1fc04818f5506' => __DIR__ . '/../..' . '/includes/woocommerce-functions.php',
         '82c376d2fd15f380fa57637d9a2c92a2' => __DIR__ . '/../..' . '/includes/elementor-functions.php',
         '370860d146a14b75751520f01cbc9c8c' => __DIR__ . '/../..' . '/includes/routes/diagnose.php',
         '8d681296f61b18196c82ba9c29caec34' => __DIR__ . '/../..' . '/includes/templates/connect.php',

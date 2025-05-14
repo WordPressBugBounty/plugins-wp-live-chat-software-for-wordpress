@@ -9,7 +9,7 @@
  * Plugin Name: LiveChat
  * Plugin URI: https://www.livechat.com/marketplace/apps/wordpress/
  * Description: Live chat software for live help, online sales and customer support. This plugin allows to quickly install LiveChat on any WordPress website.
- * Version: 5.0.2
+ * Version: 5.0.3
  * Author: LiveChat
  * Author URI: https://www.livechat.com
  * Text Domain: wp-live-chat-software-for-wordpress
@@ -27,7 +27,7 @@ if ( function_exists( 'LiveChat\text_suite_init' ) ) {
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-define( 'TEXT_PLUGIN_VERSION', '5.0.2' );
+define( 'TEXT_PLUGIN_VERSION', '5.0.3' );
 define( 'TEXT_PLUGIN_DIR', __DIR__ );
 define( 'TEXT_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 define( 'TEXT_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

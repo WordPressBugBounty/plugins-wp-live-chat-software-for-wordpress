@@ -7,14 +7,11 @@
 
 namespace LiveChat;
 
-use Elementor\Plugin;
-use LiveChat\Widgets\TextQualityBadgeWidget;
-
 /**
  * Register Elementor categories
  */
 function text_register_categories() {
-	$elementor = Plugin::instance();
+	$elementor = \Elementor\Plugin::instance();
 
 	$elementor->elements_manager->add_category(
 		'text',

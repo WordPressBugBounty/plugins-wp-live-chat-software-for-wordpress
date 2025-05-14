@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'fdba9c6585915947dfbaba492ebdeb35' => $baseDir . '/includes/functions.php',
+    '0d0c3925431d2dc9cad1fc04818f5506' => $baseDir . '/includes/woocommerce-functions.php',
     '82c376d2fd15f380fa57637d9a2c92a2' => $baseDir . '/includes/elementor-functions.php',
     '370860d146a14b75751520f01cbc9c8c' => $baseDir . '/includes/routes/diagnose.php',
     '8d681296f61b18196c82ba9c29caec34' => $baseDir . '/includes/templates/connect.php',
