@@ -91,7 +91,9 @@ function text_get_cart( \WC_Cart $cart, string $currency ): void {
 			'variantTitle'      => get_variant_title( $item['variation'] ),
 			'variantId'         => $item['variation_id'],
 			'discounts'         => array(
-				'amount' => $discount,
+				array(
+					'amount' => $discount,
+				),
 			),
 			'qty'               => $item['quantity'],
 			'value'             => $value,

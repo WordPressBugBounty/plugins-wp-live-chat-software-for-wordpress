@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 5.0.4 =
+* fixed WooCommerce cart discounts return type
+
 = 5.0.3 =
 * fixed WooCommerce cart tracking issue
 
