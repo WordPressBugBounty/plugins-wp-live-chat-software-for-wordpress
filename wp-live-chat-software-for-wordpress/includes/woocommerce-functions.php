@@ -98,6 +98,7 @@ function text_get_cart( \WC_Cart $cart, string $currency ): void {
 			'qty'               => $item['quantity'],
 			'value'             => $value,
 			'productPreviewUrl' => $product->get_permalink(),
+			'sku'               => $product->get_sku(),
 		);
 	}
 
