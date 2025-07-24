@@ -1,208 +1,322 @@
 === LiveChat - Live Chat Plugin for WP Websites ===
 Contributors: LiveChat
 Tags: live chat, chat plugin, live chat plugin, wordpress live chat, wordpress chat,
-Stable tag: 5.0.6
+Stable tag: 5.0.7
 Requires PHP: 7.2
 Tested up to: 6.8.1
 Requires at least: 4.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Live chat and help desk software plugin for WordPress. Add LiveChat (live chat and help desk software) to your WordPress.
+Best live chat and help desk plugin for WordPress websites. Add the LiveChat widget to engage visitors and provide real‑time customer support! 🚀
 
 == Description ==
 
-= WordPress chat plugin =
+Want to communicate with visitors while they’re browsing your site? With the **LiveChat plugin for WordPress**, you can add a live chat widget that lets you connect with customers in real time, answer questions instantly, and offer top-notch customer support.
 
-Want to communicate with customers while they're browsing your website? With LiveChat’s WordPress plugin, you can **connect with them** and **answer questions as they come in**.
+You can also use the chat widget to send personalized messages, collect leads, or act as a contact form when you're offline. It’s **the best live chat and AI customer support plugin for WordPress websites**.
 
-Along with chatting, you can also send out personalized messages based on different criteria. Plus, you can use the chat widget as a contact form for offline messages or even to enable customers to sign up to your mailing list.
+https://www.youtube.com/watch?v=l86bnupc_4o
 
-https://www.youtube.com/watch?v=dKUdE-JKhZI 
+Whether you run a blog, online store, or service business, live chat software helps you:
 
-= Feature-rich WordPress live chat plugin =
+- Connect with customers instantly.
+- Improve customer satisfaction scores.
+- Capture more leads and close more sales.
 
-Under the hood, LiveChat offers a number of efficiency features, such as targeted messages. These, for instance, could be used to automatically pop up on your checkout page if a shopper is inactive.
+LiveChat is designed for WordPress users who want to offer fast, professional support — without adding friction to the user experience.
 
-LiveChat’s personalization features are no match for the competition. You can customize colors and messages to match your website. It’s possible to set up different themes for the mobile experience, and you can add team photos for more personalized interactions.
+= 🧑‍💻 Feature-rich WordPress live chat widget =
 
-But that’s not all. It’s a snip to set up quick replies to answer repetitive questions and create chat tags to streamline communication. To ease your customer support processes, you can handle multiple chat windows across different pages.
+- 💬 LiveChat + [ChatBot](https://www.livechat.com/marketplace/apps/chatbot/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) (AI-powered) — Combine human support with automation. Use AI chatbots to handle FAQs instantly and transfer complex cases to your live customer support team.
 
-With LiveChat you can **provide 24/7 customer support**. During your off-hours, your customers will still be able to message you in the chat widget - just as they would if your team was online. All of their messages will be stored within LiveChat, ready to be replied to.
+- 🧲 Lead capture — Don’t miss a lead. Capture messages when you're offline using the chat widget as a [contact form](https://www.livechat.com/asynchronous-communication/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing). Every message is stored safely for follow-up.
 
-= Live Chat for WordPress website =
+- 📊 Website visitor tracking — [Track visitors in real time](https://www.livechat.com/tour/#engage?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing). See what pages they viewed, where they came from, and what products they’re browsing. Spot high-intent leads instantly.
+- 🎯 Targeted messages & smart triggers — Send personalized messages or chat invitations based on user behavior. Greet returning visitors or [engage users](https://www.livechat.com/features/engaging-customers/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) browsing your pricing or checkout pages.
 
-One of the key things about this plugin is that it is designed to work with the most popular WordPress site builders - Elementor Page Builder, Divi Builder, WordPress Page Builder, Beaver Builder, to name a few.
+- 🛍️ Built for [ecommerce](https://www.livechat.com/solutions/ecommerce?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — Boost sales with access to cart contents for upsell and cross-sell opportunities, cart recovery messages, and proactive support on WooCommerce and other ecommerce platforms.
 
-In addition, LiveChat works well with any WordPress theme or WordPress template without requiring any modifications.
+- 📋 Customer profiles & CRM integration — [Access detailed visitor profiles](https://www.livechat.com/solutions/ecommerce/#Gathering-customer-data?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) with past chat history, location, and behavior. Sync with your CRM to personalize support and drive conversions.
 
-Want to communicate with shoppers while they’re browsing your WordPress store? LiveChat has partnered with the major ecommerce platforms, including BigCommerce for WordPress, WooCommerce, and Ecwid Ecommerce Shopping Cart.
 
-= Easy to customize and extend =
+- ⚡ Quick replies — Save time with [ready-made answers](https://www.livechat.com/features/chat-tools/#Canned-responses?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) to common questions. Agents can respond in seconds using shortcuts.
 
-From email marketing to social media, LiveChat **integrates seamlessly** with a range of popular third-party apps and services. These include Zendesk, Messenger, HubSpot CRM, WhatsApp, Mailchimp, Salesforce, and others.
+- 📬 LiveChat + HelpDesk integration — Connect LiveChat with [HelpDesk](https://www.livechat.com/marketplace/apps/helpdesk/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) to manage live chat, email, and tickets in one place. Streamline your customer support workflow by turning conversations into tickets and tracking them from start to resolution, without switching tools.
 
-== What is live chat for WordPress? ==
+- 👀 [Message sneak peek](https://www.livechat.com/features/chat-tools/#Message-sneak-peek?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — See what your customers are typing in real time before they hit send. It helps you prepare faster responses and reduce resolution time.
 
-If you have a website and you are serious about your business, you cannot overlook the importance of live chat.
+- 🌐 Multisite support — Add LiveChat to multiple WordPress sites without extra charges. Customize the widget per page or keep it consistent across your network.
 
-The way this plugin works is simple: a typical chat widget sits on the bottom right side of your WordPress website. Your website visitors can choose to chat with you, or you can actively engage them with chat invitations. Plus, you can use the widget as a contact form for offline messages or even to enable customers to sign up to your mailing list.
+- 📱 Mobile-ready support — Use the [LiveChat mobile app](https://www.livechat.com/app/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) on iOS and Android to chat with customers on the go. Perfect for remote teams or when you need to step away from your desk.
 
-Live chat software is perfect for businesses of all sizes, enabling them to close more sales and improve customer satisfaction scores.
+- 📈 Reports, goals & analytics — Measure performance with detailed [reports](https://www.livechat.com/features/reports-and-analytics/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing). Track sales, chat satisfaction, and response times to optimize support and conversions.
 
-= Usage =
+- 🎨 [Full widget customization](https://www.livechat.com/features/customization/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — Match your brand perfectly. Change colors, greetings, widget placement, and behavior on both desktop and mobile.
 
-Once you install and activate the plugin, it will prompt you to connect to your LiveChat account or create a new account. After syncing the two, you’ll have to log into one of LiveChat’s applications - web, desktop, or mobile.
+- 📬 [Messaging channel integrations](https://www.livechat.com/features/channels/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — Manage chats from Facebook Messenger, WhatsApp, Instagram, SMS, and your website in one unified inbox.
 
-== Notes ==
+- 👥 Team management & roles — [Organize agents into groups](https://www.livechat.com/features/team-management/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) (sales, support, billing) and assign custom roles with permissions. Ideal for growing support teams.
 
-= Requirements =
+- 🔐 [Security](https://www.livechat.com/features/security/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) & access controls — Protect customer data with 2-step verification, visitor banning, and permission-based access for agents and admins.
 
-The WordPress Live Chat Plugin by LiveChat is free, but you need to be a LiveChat customer. LiveChat comes with a [14-day trial](https://www.livechat.com/try-livechat/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration). No credit card is needed.
+= 🤖 AI-powered features =
 
-Take a look at the LiveChat plans and features on our [website](https://www.livechat.com/pricing/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration).
+- 🧠 AI-powered [reply suggestions](https://www.livechat.com/help/reply-suggestions/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — Connect LiveChat with your knowledge base to automatically generate accurate, on-brand responses. Ensure your team provides consistent answers with less effort. Perfect for scaling customer support with AI bot.
 
-= Localization =
+- 📄 Chat summaries — No time to read full transcripts? Get an instant AI-generated summary of every conversation so you can catch up on key points and follow up faster.
 
-LiveChat - WP live chat plugin for WordPress is a fully translation-ready plugin. You can translate the plugin into any language at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/wp-live-chat-software-for-wordpress/).
+- 📊 Weekly insights & trends — See what your customers are asking and fast. Get a [weekly digest](https://www.livechat.com/help/insights/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) that highlights the most common questions from your LiveChat conversations. Great for improving your FAQ content and support workflows.
 
-= Partner with LiveChat =
+- ✍️ AI text enhancement — [Write replies faster and smarter](https://www.livechat.com/help/ai-text-suggestions-your-agents-writing-assistant/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing). Use AI to expand, rephrase, summarize, or adjust the tone of any message, whether you want to sound friendlier, more formal, or more concise.
 
-Want to open a LiveChat account for a client? Expand your business offering by adding LiveChat in projects you run for your customers.
+- 🏷️ Smart tag suggestions — Save time with automatic chat tagging. LiveChat suggests relevant tags based on the conversation, helping you stay organized without manually labeling each chat.
 
-[Check our Partner Program](https://partners.livechat.com/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=wordpress_listing).
+= 🖥️ LiveChat for WordPress website =
 
-== Testimonials ==
+LiveChat is fully compatible with the most popular WordPress page builders, including Elementor, Divi, Beaver Builder, and the default WordPress Block Editor. You can easily place the chat widget anywhere on your site — no coding required.
 
->We frequently have leads chat with us asking some qualifying questions, and then they eventually sign up online or over the phone. These are sales that we might not have had if LiveChat wasn’t an option ([read more](https://www.livechat.com/customers/customer-stories/patlive/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)).
+It also works seamlessly with any WordPress theme or template without needing custom modifications. Whether you're using a free theme or a custom-built design, LiveChat blends in perfectly.
 
-- **Jamie Lowary, a sales lead at PATLive**
+Running an ecommerce store? LiveChat integrates with major platforms like **WooCommerce**, **BigCommerce for WordPress**, and **Ecwid**, making it easy to support and convert shoppers in real time.
 
->At the moment, **LiveChat remains the mostly used tool when it comes to contacting our support**. Because of how easy we made it for users to access it, we help over 750 of them each day with an average satisfaction of 96% ([read more](https://www.livechat.com/customers/customer-stories/kinguin/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)).
+= 🛠️ Easy to customize and extend =
 
-- **Michal Haze, Head of Customer Experience at Kinguin**
+LiveChat is built to grow with your business. You can **customize the chat widget to match your brand** and **extend its functionality with powerful integrations**.
 
-== Documentation and Support ==
+Easily [connect LiveChat to your favorite tools](https://www.livechat.com/marketplace/apps/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) for email marketing, CRM, and social messaging. Popular integrations include:
 
-* For documentation and tutorials go to our [help desk article](https://www.livechat.com/kb/wordpress-livechat-on-your-website/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration) article.
-* If you have any more questions, start a live chat session with our support on the [WordPress integration page](https://www.livechat.com/marketplace/apps/wordpress/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration).
-* For more information about live chat features, FAQs, and documentation, check out our [website](https://www.livechat.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration).
-* If interested, you can join our community group here [here](https://www.livechat.com/community/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration). 
+- HubSpot CRM, Salesforce, Zendesk.
+- WhatsApp, Facebook Messenger, Instagram.
+- Mailchimp, Google Analytics, Slack, and more.
 
-Also, if you have any questions about this live chat plugin, feel free to post a thread in our [WordPress.org forum](https://wordpress.org/support/plugin/wp-live-chat-software-for-wordpress/).
+Whether you're managing customer relationships, sending newsletters, or chatting across platforms, LiveChat helps you keep everything in sync.
+
+= 💬 How LiveChat works =
+
+After you install and activate the [LiveChat plugin on your WordPress site](https://www.livechat.com/marketplace/apps/wordpress/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing), you’ll be prompted to sign in to your existing LiveChat account or create a new one.
+
+If you're new to LiveChat, **setup only takes a minute** — and a free trial is available, so you can get started without a credit card.
+
+Once connected, simply log in using any of the LiveChat apps:
+
+- Web app (browser-based).
+- Desktop app (Windows/macOS).
+- Mobile app (iOS or Android).
+
+The chat widget will automatically appear on your WordPress site. You can now:
+
+- Customize its look and behavior.
+- Set up automated greetings.
+- Start chatting with visitors in real time.
+
+**Need help getting started?**
+👉 [LiveChat Getting Started Guide](https://www.livechat.com/help/wordpress-livechat-on-your-website/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing)
+
+= 🗒️ Notes =
+
+🌍 **Localization support**
+LiveChat — the WordPress live chat plugin — is fully translation-ready. You can easily translate it into any language using the WordPress community tools at translate.wordpress.org.
+
+Whether your customers speak Spanish, German, French, or any other language, you can offer a seamless multilingual chat experience.
+
+🤝 **Partner with LiveChat**
+Are you a developer or agency looking to offer live chat solutions for clients?
+You can open a LiveChat account on behalf of your customers and add real-time support to their websites.
+
+**[Join our Partner Program](https://partners.livechat.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing)** to earn recurring revenue while expanding your service offering. 
+
+= 🗣️ Testimonials =
+
+>With LiveChat, we are able to answer questions far more quickly and seamlessly so we can help customers make better product choices for their projects. ([read more](https://www.livechat.com/customers/customer-stories/pioneer-millworks/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing))
+
+- Deanna Varble, **Pioneer Millworks**
+
+>Since installing LiveChat on our website in March 2020, sales made thanks to online consultations constitute 1.7% of the company’s profits in the digital channel. ([read more](https://www.livechat.com/customers/customer-stories/sephora/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing))
+
+- Milena Wojewoda, **Sephora**
+
+= 📑 Documentation and support =
+
+Need help setting up or using the LiveChat plugin for WordPress? We’ve got you covered:
+
+- 📘 Installation & setup guide — Follow our [step-by-step help center article](https://www.livechat.com/help/wordpress-livechat-on-your-website/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) to learn how to install and configure LiveChat on your WordPress website.
+
+- 💬 Live support — Chat with our team directly on the [WordPress integration page](https://www.livechat.com/marketplace/apps/wordpress/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) for real-time assistance.
+
+- 🌐 LiveChat website — Explore all plugin features, FAQs, chatbot tools, and use cases on [our website](https://www.livechat.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+- 🏢 LiveChat for enterprise - Need a scalable customer service solution for high-volume support? Learn how [LiveChat for Enterprise](https://www.livechat.com/enterprise/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) helps large businesses improve customer engagement and team performance.
+
+- 🛠 Plugin support forum — Have a question or issue? Post a thread in the WordPress.org support forum, and we’ll respond as soon as possible.
 
 https://www.youtube.com/watch?v=LhqR2_UjQm8
 
-== About us ==
+= 🏢 About us =
 
-LiveChat Software offers solutions to manage business communications, generate leads, and sell online. It allows companies to stay in touch with their customers anytime and anywhere - just the way they want. The product suite consists of LiveChat, ChatBot, HelpDesk, and KnowledgeBase.
+[Text](https://www.text.com?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) provides modern tools for managing business communication, generating leads, and delivering exceptional customer support — anytime, anywhere.
 
-The products serve more than 41,000 businesses from 150 countries. The company’s customer portfolio starts with small, private companies and goes up to Fortune 500 enterprises, including PayPal, IKEA, Allstate, CapitalOne.
+Our product suite includes:
 
-= The Text ecosystem =
+- [LiveChat](https://www.livechat.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — real-time messaging for sales and support.
+- [ChatBot](https://www.chatbot.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — AI-powered automation and chatbot agents.
+- [HelpDesk](https://www.helpdesk.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — help desk software with ticketing and email support.
+- [KnowledgeBase](https://www.knowledgebase.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — self-service documentation.
+- [OpenWidget](https://openwidget.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — a customer service widget creator tool.
 
-The ecosystem of [Text](https://text.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration) products includes:
-- **[LiveChat](https://www.livechat.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)** - a communication tool that allows you to chat live with your customers
-- **[HelpDesk](https://www.helpdesk.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)** - an online ticketing system suitable both for small businesses and enterprise clients
-- **[ChatBot](https://www.chatbot.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)** - a bot framework for AI chat bots - official [ChatBot plugin page](https://wordpress.org/plugins/chatbot-com-ai-platform/)
-- **[Knowledge Base](https://www.knowledgebase.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)** - a public Help Center widget
-- **[Open Widget](https://openwidget.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)** - free widgets for website - official [OpenWidget plugin page](https://wordpress.org/plugins/free-customer-service-tools-by-openwidget/)
-- **[Text Messaging Platform](https://platform.text.com/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration)** - chat platform for innovative teams
+Trusted by over 35,000+ businesses across 150+ countries, our tools are used by companies of all sizes — from startups to Fortune 500 brands like PayPal, IKEA, Allstate, and Capital One.
 
+📰**Press & brand assets**
 
-= Press & Brand Assets =
-
-If you are interested in writing about LiveChat, take a look at the [LiveChat Press Office](https://www.livechat.com/press/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration). Download our logo, screenshots, and other relevant assets.
+Writing about Text or our products? Visit the [Text Press Office](https://www.text.com/press/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) to download our logo, product screenshots, and official brand guidelines.
 
 == Frequently Asked Questions ==
 
-= Do I need a LiveChat account to use this live chat plugin? =
-Yes. You can create your first account during the installation process.
+= Do I need a LiveChat account to use this plugin? =
+Yes. You can create a free LiveChat account during the plugin installation process.
 
-= Do you provide live chat support? =
-YES! You can live chat with us anytime - we are available 24/7/365!
+= Do you offer live chat support for this plugin? =
+Yes! Our support team is available 24/7/365 via live chat. Just visit [our website](https://www.livechat.com?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) to start a conversation.
 
-= Is there a limit to the number of chats I can take? =
+= How much does LiveChat cost? =
+LiveChat offers multiple pricing plans to fit different business needs. You can start with a free trial — no credit card required. For details, visit our LiveChat [pricing page](https://www.livechat.com/pricing/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+= Is LiveChat GDPR compliant? =
+Yes. LiveChat is GDPR compliant. You can enable data consent forms, anonymize chat transcripts, and set data retention policies. Learn more in our [GDPR compliance guide](https://www.livechat.com/help/prepare-chat-gdpr/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+= Is LiveChat secure? =
+Absolutely. All conversations are protected by 256-bit SSL encryption, and we support 2-step verification, role-based access, and data masking. Learn more about our [security features](https://www.livechat.com/features/security/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+= Can I use a chatbot with this plugin? =
+Yes! You can connect ChatBot to LiveChat to automate answers, qualify leads, and handle chats outside business hours. Learn [how to get started with ChatBot](https://www.livechat.com/marketplace/apps/chatbot/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+= What’s the difference between LiveChat and other live chat plugins? =
+LiveChat stands out for its speed, UX, scalability, and AI capabilities. Unlike many free plugins, we offer advanced features like chat routing, chatbots, visitor tracking, reports, and multichannel integrations — all in one app.
+
+= Can I test the plugin before buying? =
+Yes. You can fully explore the LiveChat plugin with a 14-day free trial, including all premium features. No billing info required.
+
+= Is there a limit to how many chats I can take? =
 No. You can handle an unlimited number of chats with any number of customers.
 
-= Is it possible to track on-site visitors through this live chat plugin? =
-YES! With the LiveChat plugin for WordPress, you can see your visitor’s important information, such as their location, the page they are currently viewing, and more.
+= Can I track visitors on my WordPress site using LiveChat? =
+Yes. The LiveChat plugin lets you view visitor location, current page, time on site, referral source, and more — all in real time.
 
-= Is the chat window customizable? =
-Yes. Each part of the chat window can be customized - company logo, color, and more.
+= Is the chat widget customizable? =
+Absolutely. You can change colors, position, greetings, and even add your logo to match your site’s branding. [Learn more](https://www.livechat.com/features/customization/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
 
-= Does your live chat software support other languages? =
-Short answer: LiveChat supports 45 languages. Long answer: English, Spanish, French, Chinese, Portuguese, Indonesian, Thai, Vietnamese… . You can learn more about the supported languages [here](https://www.livechat.com/kb/how-to-modify-chat-window-language/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration).
+= Does LiveChat support multiple languages? =
+Yes. LiveChat supports 45 languages, including English, Spanish, French, Chinese, Portuguese, and more. See the full list [here](https://www.livechat.com/help/how-to-modify-chat-window-language/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
 
-= How does the live chat app work after hours? =
-When you go offline, your live chat widget is replaced with a ticket form. This means that visitors can still leave you questions as tickets. To manage tickets you need to log into your live chat app.
+= What happens when I'm offline? =
+Even when you're offline, the chat widget allows visitors to leave messages. Once you're back online, you can review and manage them in LiveChat. [Read more](https://www.livechat.com/help/messaging-mode/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
 
-= Does LiveChat support multiple websites? =
-Yes. Use our live chat app to monitor multiple websites using a single account and customize the look of the chat widget individually for each website.
+= Can I use LiveChat on multiple websites? =
+Yes. Monitor multiple websites from one LiveChat account. You can even customize the chat widget appearance per site.
 
-= Can I live chat with customers on my mobile? =
-With our [mobile live chat apps](https://www.livechat.com/kb/stay-mobile-with-livechat/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration) for iPhone, iPad, and Android you can chat anywhere: in the car, at home, or while shopping.
+= Is there a mobile app for chatting with customers? =
+Yes! Use our LiveChat mobile apps for iOS and Android to chat from anywhere - at home, at work, or on the go. [Find out more](https://www.livechat.com/help/livechat-mobile-sell-and-support-on-the-go/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
 
-= Do you offer any tips on how to start? =
-Sure - head over to our [website](https://www.livechat.com/resources/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration) for best practices and tips on how your company can benefit from live chat support.
+= Where can I find the best practices for using live chat? =
+Visit our LiveChat [Help Center page](https://www.livechat.com/help/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) for guides, tips, and customer service strategies.
 
-= Do you have any reviews from your customers I could check? =
-Here are some [live chat reviews](https://www.livechat.com/customers/live-chat-reviews/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration) our customers sent us.
+= Are there any reviews I can read from your customers? =
+Yes — see what other businesses are saying on our LiveChat customer reviews page.
 
-= I love LiveChat. How can I promote it? =
-Feel free to leave us a review. Your feedback is crucial because it helps others discover our live chat software.
+= I love LiveChat! How can I promote it? =
+We’d love to hear from you. Leave a review on the WordPress.org plugin page to help others discover LiveChat.
+
+= How does LiveChat use artificial intelligence? =
+LiveChat uses AI-powered assistants like [Copilot](https://www.livechat.com/ai/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) to help agents respond faster and more accurately. It suggests replies, summarizes conversations, and flags important insights — boosting productivity and customer satisfaction. 
+
+= Can AI respond to customers automatically? =
+Yes. With ChatBot integration, AI chatbots can handle FAQs, [qualify leads](https://www.livechat.com/help/six-simple-chatbot-ideas/#lead-generation/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing), and resolve multiple chats simultaneously — 24/7. If a query is too complex, it seamlessly transfers to a human agent.
+
+= Can I combine AI with human agents? =
+Absolutely. LiveChat offers a hybrid support model: the AI chatbot handles routine questions and automatically switches to live agents when needed. [Explore](https://www.livechat.com/help/chatbot-design-tips-tricks/#8-know-when-to-transfer-to-a-human-agent/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+= Do I need to train the AI myself? =
+No manual coding is required. Simply feed ChatBot your knowledge base, PDFs, or help docs, and it trains itself — powered by an in-house AI. Copilot also learns from your product and account data for smarter suggestions. [Learn more](https://www.chatbot.com/help/artificial-intelligence/train-chatbot-with-files/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+
+= Is the AI chatbot included in all plans? =
+Basic AI features like Copilot reply suggestions and chat summaries are available on Business and Enterprise plans. Full chatbot automation via ChatBot integration requires a separate plan.
+
+= Can the AI chatbot handle complex queries? =
+Yes. ChatBot can manage complicated workflows and escalate to human agents for complex issues. Copilot provides behind-the-scenes suggestions for agents handling tough queries.
+
+= Will my customers know they’re chatting with a bot? =
+You control the messaging. Bots can appear as agents or be clearly identified as a chatbot. Chats transfer to real people seamlessly when needed.
+
+= Can AI analyze customer conversations? =
+Yes. Copilot summarizes chats and highlights popular topics weekly. It can also produce analytics on chat sentiment and agent performance. [Read this](https://www.livechat.com/help/one-ai-powered-personal-assistant/#what-can-it-do/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing). 
+
+= Does the AI support multiple languages? =
+Yes. ChatBot supports multiple languages. LiveChat’s Copilot works with your localization settings. LiveChat widget is also translation-ready (45+ languages).
+
+= Is it possible to customize the AI’s tone and answers? =
+Absolutely. You can configure bot responses, edit suggested replies, and train chatbots to match your brand voice using the visual builder interface.
+
+= How accurate is the AI in answering customer questions? =
+ChatBot uses generative and trained AI with [knowledge fed from your own content](https://www.chatbot.com/help/train-your-chatbot/train-your-chatbot/#the-answered-by-ai-section/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing) — resulting in high accuracy and number of cases resolved automatically. 
+
+= Can I disable AI and use only live agents? =
+Yes. You’re in full control. Disable Copilot or the ChatBot integration at any time and manage chats manually from the LiveChat app.
 
 == Installation ==
 
 = Automated Installation =
 
-1. Go to your WordPress admin dashboard, then find the Plugins” menu.
-2. Click on “Add New” and search for “LiveChat”.
-3. Activate the live chat plugin through the `Plugins` menu in WordPress.
-4. Click the `LiveChat` menu on the left.
-5. Create a new account or sign in if you already have a LiveChat account.
+1. Go to your WordPress admin dashboard and navigate to Plugins → Add New.
+2. Search for “LiveChat” in the plugin directory.
+3. Click Install Now, then Activate the plugin.
+4. Open the LiveChat menu in your WordPress sidebar.
+5. Sign in to your existing LiveChat account, or create a new one to get started.
 
 = Manual Installation =
 
-1. Upload the `wp-live-chat-software-for-wordpress` zip file to the WordPress plugins directory (`/wp-content/plugins/`).
-2. Activate the live chat plugin through the `Plugins` menu in WordPress.
-3. Click the `LiveChat` menu on the left.
-4. Create a new account or sign in if you already have a LiveChat account.
-
-For more detailed instructions, go to the [live chat plugin page](https://www.livechat.com/kb/wordpress-livechat-on-your-website/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=WordpressIntegration).
+1. Download the wp-live-chat-software-for-wordpress.zip plugin file.
+2. Upload it to your site via the Plugins → Add New → Upload Plugin option.
+– or –
+3. Extract the ZIP and upload the folder to /wp-content/plugins/ via FTP.
+4. Activate the plugin from the Plugins menu.
+5. Open the LiveChat tab in your dashboard.
+6. Sign in or register your LiveChat account to start chatting with customers.
 
 == Screenshots ==
 
-1. Bring the best live chat for WordPress with you and help your online customers anytime, anywhere.
-2. By talking directly with customers, you can collect real-time customer feedback, boost sales, and manage customer relationships with ease.
-3. From the LiveChat dashboard you can monitor all the traffic and actively initiate a chat whenever you feel your visitor needs help.
-4. Customize all of the settings and messaging of your live chat widget to match the style and look of your brand.
+1. Add the best live chat widget to your WordPress website and support your customers anytime, anywhere — right from your desktop or mobile.
+2. Chat with customers in real time to collect feedback, answer questions, and increase sales with personalized support.
+3. Use the LiveChat dashboard to monitor website traffic, view visitor behavior, and proactively start conversations with potential leads.
+4. Customize your chat widget design and behavior to match your brand’s style — including colors, greetings, triggers, and placement.
 
 == Changelog ==
 
+= 5.0.7 =
+* Updated plugin description for improved clarity and WordPress compatibility
+
 = 5.0.6 =
-* updated plugin name
+* Updated plugin name for improved clarity and WordPress compatibility
 
 = 5.0.5 =
-* added SKU property to cart tracking
+* Added SKU property support to WooCommerce cart tracking
 
 = 5.0.4 =
-* fixed WooCommerce cart discounts return type
+* Fixed return type bug in WooCommerce cart discount tracking
 
 = 5.0.3 =
-* fixed WooCommerce cart tracking issue
+* Resolved issue with WooCommerce cart data not syncing correctly
 
 = 5.0.2 =
-* checked plugin compatibility with WordPress 6.8
+* Confirmed plugin compatibility with WordPress 6.8
 
 = 5.0.1 =
-* added missing changelog entry
+* Restored missing changelog entry from previous version
 
 = 5.0.0 =
-* customizable auto-update feature
-* improved plugin settings page
-* code cleanup and refactoring resulting in 9x smaller plugin size
-* support for a new cart view inside the LiveChat app
+* Introduced customizable auto-update settings
+* Redesigned plugin settings page for better UX
+* Refactored codebase — now x9 smaller and faster
+* Added support for enhanced cart view inside the LiveChat app
 
 = 4.5.23 =
-* checked plugin compatibility with WordPress 6.7
+* Verified compatibility with WordPress 6.7

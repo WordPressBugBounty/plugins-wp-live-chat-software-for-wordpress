@@ -1,31 +1,34 @@
 == Changelog ==
 
+= 5.0.7 =
+* Updated plugin description for improved clarity and WordPress compatibility
+
 = 5.0.6 =
-* updated plugin name
+* Updated plugin name for improved clarity and WordPress compatibility
 
 = 5.0.5 =
-* added SKU property to cart tracking
+* Added SKU property support to WooCommerce cart tracking
 
 = 5.0.4 =
-* fixed WooCommerce cart discounts return type
+* Fixed return type bug in WooCommerce cart discount tracking
 
 = 5.0.3 =
-* fixed WooCommerce cart tracking issue
+* Resolved issue with WooCommerce cart data not syncing correctly
 
 = 5.0.2 =
-* checked plugin compatibility with WordPress 6.8
+* Confirmed plugin compatibility with WordPress 6.8
 
 = 5.0.1 =
-* added missing changelog entry
+* Restored missing changelog entry from previous version
 
 = 5.0.0 =
-* customizable auto-update feature
-* improved plugin settings page
-* code cleanup and refactoring resulting in 9x smaller plugin size
-* support for a new cart view inside the LiveChat app
+* Introduced customizable auto-update settings
+* Redesigned plugin settings page for better UX
+* Refactored codebase — now x9 smaller and faster
+* Added support for enhanced cart view inside the LiveChat app
 
 = 4.5.23 =
-* checked plugin compatibility with WordPress 6.7
+* Verified compatibility with WordPress 6.7
 
 = 4.5.22 =
 * checked plugin compatibility with WordPress 6.6
