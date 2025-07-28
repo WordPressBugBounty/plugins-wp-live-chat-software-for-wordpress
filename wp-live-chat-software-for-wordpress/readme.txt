@@ -1,7 +1,7 @@
 === LiveChat - Live Chat Plugin for WP Websites ===
 Contributors: LiveChat
-Tags: live chat, chat plugin, live chat plugin, wordpress live chat, wordpress chat,
-Stable tag: 5.0.7
+Tags: live chat, chat widget, chatbot, customer support, livechat, wordpress chat
+Stable tag: 5.0.8
 Requires PHP: 7.2
 Tested up to: 6.8.1
 Requires at least: 4.4
@@ -290,6 +290,9 @@ Yes. You’re in full control. Disable Copilot or the ChatBot integration at any
 4. Customize your chat widget design and behavior to match your brand’s style — including colors, greetings, triggers, and placement.
 
 == Changelog ==
+
+= 5.0.8 =
+* Updated plugin tags for improved clarity and WordPress compatibility
 
 = 5.0.7 =
 * Updated plugin description for improved clarity and WordPress compatibility

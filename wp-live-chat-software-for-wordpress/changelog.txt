@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 5.0.8 =
+* Updated plugin tags for improved clarity and WordPress compatibility
+
 = 5.0.7 =
 * Updated plugin description for improved clarity and WordPress compatibility
 
