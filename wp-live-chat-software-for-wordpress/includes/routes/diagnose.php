@@ -34,7 +34,15 @@ function text_get_diagnose_permission_callback( $request ) {
 
 	try {
 		$token_data = JWT::decode( $custom_header, new Key( $cert, 'RS256' ) );
-		$request->set_param( 'websiteUuid', $token_data['websiteUuid'] );
+
+		// Validate token data has required property.
+		// phpcs:ignore WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase -- JWT library uses camelCase.
+		if ( ! isset( $token_data->websiteUuid ) ) {
+			return new WP_Error( 'rest_unauthorized', 'Invalid token: missing websiteUuid', array( 'status' => 401 ) );
+		}
+
+		// phpcs:ignore WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase -- JWT library uses camelCase.
+		$request->set_param( 'websiteUuid', $token_data->websiteUuid );
 
 		return true;
 	} catch ( \Exception $e ) {
@@ -58,6 +66,15 @@ function text_get_diagnose_callback( $request ) {
 
 	if ( ! $token_data ) {
 		return rest_ensure_response( $response );
+	}
+
+	// Validate token data has required keys.
+	if ( ! \LiveChat\text_is_valid_token_data( $token_data ) ) {
+		return new WP_Error(
+			'rest_bad_request',
+			'Invalid token data',
+			array( 'status' => 400 )
+		);
 	}
 
 	if ( $token_data['websiteUuid'] !== $store_uuid ) {

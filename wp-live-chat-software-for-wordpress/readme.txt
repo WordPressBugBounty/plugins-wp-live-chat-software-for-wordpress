@@ -1,9 +1,9 @@
 === LiveChat - Live Chat Plugin for WP Websites ===
 Contributors: LiveChat
 Tags: live chat, chat widget, chatbot, customer support, livechat, wordpress chat
-Stable tag: 5.0.8
+Stable tag: 5.0.11
 Requires PHP: 7.2
-Tested up to: 6.8.1
+Tested up to: 6.9
 Requires at least: 4.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -14,7 +14,7 @@ Best live chat and help desk plugin for WordPress websites. Add the LiveChat wid
 
 Want to communicate with visitors while they’re browsing your site? With the **LiveChat plugin for WordPress**, you can add a live chat widget that lets you connect with customers in real time, answer questions instantly, and offer top-notch customer support.
 
-You can also use the chat widget to send personalized messages, collect leads, or act as a contact form when you're offline. It’s **the best live chat and AI customer support plugin for WordPress websites**.
+You can also use the chat widget to send personalized messages, collect leads, or act as a contact form when you're offline. It’s [the best live chat and AI customer support plugin for WordPress websites](https://www.livechat.com/wordpress-chat-ai/?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
 
 https://www.youtube.com/watch?v=l86bnupc_4o
 
@@ -284,12 +284,23 @@ Yes. You’re in full control. Disable Copilot or the ChatBot integration at any
 
 == Screenshots ==
 
-1. Add the best live chat widget to your WordPress website and support your customers anytime, anywhere — right from your desktop or mobile.
-2. Chat with customers in real time to collect feedback, answer questions, and increase sales with personalized support.
-3. Use the LiveChat dashboard to monitor website traffic, view visitor behavior, and proactively start conversations with potential leads.
-4. Customize your chat widget design and behavior to match your brand’s style — including colors, greetings, triggers, and placement.
+1. LiveChat Chat Widget for WordPress eCommerce websites
+2. LiveChat Copilot AI tool for WordPress customer support
+3. LiveChat Reports and Metrics dashboard for WordPress plugin
+4. LiveChat performance analytics for WordPress plugin
 
 == Changelog ==
+
+= 5.0.11 =
+* Fixed TypeError in WooCommerce cart integration when variant data has unexpected format
+
+= 5.0.10 =
+* Fixed trailing slash in plugin URL
+* Tested plugin compatibility with WordPress 6.9
+
+= 5.0.9 =
+* Confirmed plugin compatibility with WordPress 6.8.3
+* Updated plugin description and assets for improved clarity
 
 = 5.0.8 =
 * Updated plugin tags for improved clarity and WordPress compatibility

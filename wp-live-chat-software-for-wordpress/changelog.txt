@@ -1,5 +1,16 @@
 == Changelog ==
 
+= 5.0.11 =
+* Fixed TypeError in WooCommerce cart integration when variant data has unexpected format
+
+= 5.0.10 =
+* Fixed trailing slash in plugin URL
+* Tested plugin compatibility with WordPress 6.9
+
+= 5.0.9 =
+* Confirmed plugin compatibility with WordPress 6.8.3
+* Updated plugin description and assets for improved clarity
+
 = 5.0.8 =
 * Updated plugin tags for improved clarity and WordPress compatibility
 

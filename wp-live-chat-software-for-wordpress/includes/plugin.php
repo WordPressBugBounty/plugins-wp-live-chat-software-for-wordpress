@@ -371,6 +371,15 @@ function text_validate_and_save_token( string $token ): void {
 		return;
 	}
 
+	// Validate token data has required properties.
+	// phpcs:ignore WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase -- JWT library uses camelCase.
+	if ( ! isset( $token_data->websiteUuid, $token_data->widgetScriptUrl ) ) {
+		// phpcs:disable WordPress.PHP.DevelopmentFunctions.error_log_error_log
+		error_log( 'Invalid token: missing required properties' );
+		// phpcs:enable WordPress.PHP.DevelopmentFunctions.error_log_error_log
+		return;
+	}
+
 	$keys_to_keep = array( 'websiteUuid', 'widgetScriptUrl' );
 
 	// Save token.
@@ -392,8 +401,16 @@ function text_validate_and_save_token( string $token ): void {
  */
 function text_settings_page(): void {
 	if ( array_key_exists( 'token', $_GET ) && array_key_exists( '_wpnonce', $_GET ) ) {
-		wp_verify_nonce( $_GET['_wpnonce'], 'text_connect' );
-		text_validate_and_save_token( $_GET['token'] );
+		// Verify nonce and check the result.
+		if ( ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['_wpnonce'] ) ), 'text_connect' ) ) {
+			wp_die( esc_html__( 'Security check failed', 'text-app-plugin' ) );
+		}
+		// Get token and validate it (JWT validation happens in text_validate_and_save_token).
+		// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized -- JWT token validated by Firebase JWT library.
+		$token = wp_unslash( $_GET['token'] );
+		if ( ! empty( $token ) && is_string( $token ) ) {
+			text_validate_and_save_token( $token );
+		}
 	}
 
 	$token_data = text_get_token();
@@ -423,7 +440,7 @@ function text_resources_page(): void {
 function text_load_widget(): void {
 	$token_data = text_get_token();
 
-	if ( ! $token_data || ! $token_data['widgetScriptUrl'] ) {
+	if ( ! text_is_valid_token_data( $token_data ) || empty( $token_data['widgetScriptUrl'] ) ) {
 		text_load_legacy_widget();
 		return;
 	}

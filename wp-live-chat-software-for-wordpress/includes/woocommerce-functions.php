@@ -22,10 +22,15 @@ function get_numeric_value_from_string( string $value ): float {
 /**
  * Get the WooCommerce product variant title.
  *
- * @param array $variation The product variation.
+ * @param mixed $variation The product variation (expected to be an array).
  * @return string
  */
-function get_variant_title( array $variation ): string {
+function get_variant_title( $variation ): string {
+	// Handle non-array or empty variations.
+	if ( ! is_array( $variation ) || empty( $variation ) ) {
+		return '';
+	}
+
 	$variant_title = '';
 
 	foreach ( $variation as $attribute_name => $attribute_value ) {
@@ -57,6 +62,10 @@ function text_get_cart( \WC_Cart $cart, string $currency ): void {
 
 	$product_ids = array();
 	foreach ( $items as $item ) {
+		// Validate that item is an array and has all required keys.
+		if ( ! is_array( $item ) || ! isset( $item['product_id'], $item['line_subtotal'], $item['line_total'], $item['quantity'] ) ) {
+			continue;
+		}
 		$product_ids[] = $item['product_id'];
 	}
 
@@ -67,8 +76,13 @@ function text_get_cart( \WC_Cart $cart, string $currency ): void {
 	);
 
 	foreach ( $items as $item ) {
+		// Validate that item is an array and has all required keys.
+		if ( ! is_array( $item ) || ! isset( $item['product_id'], $item['line_subtotal'], $item['line_total'], $item['quantity'] ) ) {
+			continue;
+		}
+
 		$item_product_id = $item['product_id'];
-		$product         = $products[ array_search(
+		$product_index   = array_search(
 			$item_product_id,
 			array_map(
 				function ( $product ) {
@@ -77,19 +91,29 @@ function text_get_cart( \WC_Cart $cart, string $currency ): void {
 				$products
 			),
 			true
-		) ];
+		);
+
+		// Skip if product not found in the products array.
+		if ( false === $product_index || ! isset( $products[ $product_index ] ) ) {
+			continue;
+		}
+
+		$product = $products[ $product_index ];
 
 		$subtotal = $item['line_subtotal'];
 		$value    = $item['line_total'];
-
 		$discount = $subtotal - $value;
+
+		// Safely get variation data with fallback.
+		$variation    = $item['variation'] ?? array();
+		$variation_id = $item['variation_id'] ?? 0;
 
 		$response->items[] = array(
 			'id'                => $item_product_id,
 			'thumbnailUrl'      => get_the_post_thumbnail_url( $product->get_id(), 'shop_thumbnail' ),
 			'title'             => $product->get_name(),
-			'variantTitle'      => get_variant_title( $item['variation'] ),
-			'variantId'         => $item['variation_id'],
+			'variantTitle'      => get_variant_title( $variation ),
+			'variantId'         => $variation_id,
 			'discounts'         => array(
 				array(
 					'amount' => $discount,

@@ -29,6 +29,11 @@ function text_register_categories() {
  * @return array
  */
 function text_register_elementor_common_icons( $icons ) {
+	// Validate that icons parameter is an array.
+	if ( ! is_array( $icons ) ) {
+		return array();
+	}
+
 	wp_enqueue_style(
 		'text-icons-style',
 		TEXT_PLUGIN_URL . '/includes/css/text-icons.css',

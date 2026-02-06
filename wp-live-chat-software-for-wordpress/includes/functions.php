@@ -89,6 +89,17 @@ function get_oauth_initiate_url(): string {
 }
 
 /**
+ * Validate token data has required structure.
+ *
+ * @param mixed $token_data The token data to validate.
+ * @return bool
+ */
+function text_is_valid_token_data( $token_data ): bool {
+	return is_array( $token_data )
+		&& isset( $token_data['websiteUuid'], $token_data['widgetScriptUrl'] );
+}
+
+/**
  * Return the URL for the /api/v1/public/:websiteUuid/deactivation-feedback endpoint.
  *
  * @return ?string
@@ -96,7 +107,7 @@ function get_oauth_initiate_url(): string {
 function get_deactivation_feedback_url(): ?string {
 	$token_data = text_get_token();
 
-	if ( ! $token_data ) {
+	if ( ! text_is_valid_token_data( $token_data ) ) {
 		return null;
 	}
 
